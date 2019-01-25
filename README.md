@@ -14,7 +14,7 @@ Of course, I will gradually combine these excellent libraries to do some interes
 
 ## how to use
 
-> name is poopy!!!
+> name is pooppy!!!
 
 ```js
 yarn add pooppy
