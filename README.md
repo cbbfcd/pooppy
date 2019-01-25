@@ -1,4 +1,4 @@
-# poppy
+# pooppy
 
 > A state management portfolio for personal use only
 
