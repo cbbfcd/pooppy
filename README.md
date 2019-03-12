@@ -210,6 +210,10 @@ const { Provider } = createContainer(someCounter)
 const NestComponent = nest(Provider, SomeChildUnStateComponent)
 ```
 
+## changelog
+
+- [x] 2019-3-12 add useWhyDidYouUpdate Hooks, click to see use [demo](https://codesandbox.io/s/8xk738qvx9).
+
 ## Reference
 
 [1. nest](https://github.com/diegohaz/constate/issues/61#issuecomment-447558713)</br>
