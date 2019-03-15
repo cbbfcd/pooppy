@@ -10,9 +10,9 @@ type IObj = {
   [key: string]: any
 }
 
-
 /**
  * immer: https://github.com/mweststrate/immer
+ * @param {any} initialState your initialState
 */
 const useImmer: UseImmer = initialState => {
   const [state, setState] = React.useState(initialState)
@@ -27,6 +27,7 @@ const useImmer: UseImmer = initialState => {
 /**
  * like recompose#nest
  * nest(MainCounter.Provider, DynamicImportedRoutePage)
+ * @param {Array[React.Component]} components a collections of components
 */
 const nest = (...components: any[]) => (props: any) => 
   components.reduceRight(
@@ -36,9 +37,10 @@ const nest = (...components: any[]) => (props: any) =>
 
 /**
  * Some useful collections Hooks!
+ * thanks the idea and the original code! https://twitter.com/brunolemos/status/1090377532845801473
+ * @param {String} name your custom name
+ * @param {any} props props you want to record
 */
-
-// thanks the idea and the original code! https://twitter.com/brunolemos/status/1090377532845801473
 const useWhyDidYouUpdate = (name: string, props: any) => {
   const previousProps: IObj = React.useRef(null)
   React.useEffect(() => {
