@@ -1,5 +1,7 @@
 # pooppy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cbbfcd/pooppy.svg)](https://greenkeeper.io/)
+
 > A state management portfolio for personal use only
 
 ⚠️:
